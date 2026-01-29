@@ -6,6 +6,6 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
     <!-- Include all changelog files -->
-    <include file="changelog/2024-01-29-01-create-users-table.xml"/>
+    <include file="db/changelog/2024-01-29-01-create-users-table.xml"/>
 
 </databaseChangeLog>

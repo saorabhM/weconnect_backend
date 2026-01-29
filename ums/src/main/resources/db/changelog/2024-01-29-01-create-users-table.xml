@@ -25,10 +25,10 @@
             <column name="is_active" type="BOOLEAN" defaultValue="true">
                 <constraints nullable="false"/>
             </column>
-            <column name="created_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="created_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
-            <column name="updated_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="updated_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -60,10 +60,10 @@
             <column name="height_cm" type="INT">
                 <constraints nullable="true"/>
             </column>
-            <column name="created_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="created_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
-            <column name="updated_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="updated_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -93,7 +93,7 @@
             <column name="position" type="INT">
                 <constraints nullable="true"/>
             </column>
-            <column name="created_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="created_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -123,10 +123,10 @@
             <column name="max_distance_km" type="INT" defaultValue="50">
                 <constraints nullable="false"/>
             </column>
-            <column name="created_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="created_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
-            <column name="updated_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="updated_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -156,7 +156,7 @@
             <column name="country" type="VARCHAR(100)">
                 <constraints nullable="true"/>
             </column>
-            <column name="updated_at" type="TIMESTAMP" defaultValueDb="CURRENT_TIMESTAMP">
+            <column name="updated_at" type="TIMESTAMP" defaultValueComputed="CURRENT_TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
